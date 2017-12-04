@@ -1,0 +1,28 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "webpack 3.x learn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack ./src/entry.js ./dist/bundle.js", //npm run webpack
+    "live-server":"live-server ./ --port=9090" //npm run live-server
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loshirleyve/webpackDemo.git"
+  },
+  "keywords": [
+    "3.x",
+    "webpack"
+  ],
+  "author": "shirley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loshirleyve/webpackDemo/issues"
+  },
+  "homepage": "https://github.com/loshirleyve/webpackDemo#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
