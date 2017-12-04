@@ -1,1 +1,1 @@
-document.getElementById("test").innerHTML="hello webpack 3.x"
+document.getElementById("test").innerHTML="hello webpack 3.x !"
