@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack ./src/entry.js ./dist/bundle.js", //npm run webpack
-    "live-server":"live-server ./ --port=9090" //npm run live-server
+    "webpack": "webpack", 
+    "live-server":"live-server ./ --port=9090" 
   },
   "repository": {
     "type": "git",
